@@ -1,0 +1,86 @@
+/*Author - Jeremy Kirkpatrick 
+  Date - 9/25/24
+  File Name - styles.css
+*/
+
+
+/*Reset sizing*/
+body, header, nav, footer, h1, h2, h3
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+/*Rules for body content, colors */
+body
+{
+    background-color: #990011;
+    color: #fcf6f5
+}
+/*Rules for header*/
+header
+{
+    text-align: center;
+}
+nav
+{
+    text-align: center;
+}
+/* Add Columns */
+.Column
+{
+    float:left;
+    width: 50%;
+    padding:5px;
+    height: 400px;
+}
+/*Rules for main content */
+h2
+{
+    text-align: left;
+    text-decoration-line: underline;
+    color: #000; 
+    font-size: xx-large;
+}
+h3
+{
+    text-align:right;
+    text-decoration-line: underline;
+    color:#000;
+    font-size: xx-large;
+}
+main 
+{
+    padding: 3%;
+    overflow:auto
+}
+.Introduction
+{
+    font-size: 2em;
+}
+.Hobbies
+{
+    font-size: 2em;
+}
+.Music
+{
+    font-size: large;
+    text-align:left;
+}
+.Interests
+{
+    font-size: x-large;
+    text-align: right;
+}
+img
+{
+    border: 5px solid #000;
+    text-align:center;
+}
+.center
+{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+}
